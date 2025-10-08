@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SereneAyur — Healing through Nature and Wisdom</title>
+  <meta name="description" content="SereneAyur: Ayurveda treatments & products specializing in orthopedic care in Sri Lanka." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body { background-color: #FFF8F0; font-family: 'Roboto', sans-serif; color: #4B3A2F; }
+    h1,h2,h3 { font-family: 'Merriweather', serif; color: #2F4F2F; }
+    .glass { background: rgba(255,248,240,0.6); backdrop-filter: blur(4px); }
+    .btn { @apply px-5 py-3 rounded-md text-white bg-[#CBA135] hover:bg-[#B58F2B]; }
+    .section-title { @apply text-2xl font-bold mb-4; color:#2F4F2F; }
+    .card { background-color: #F3E9DC; border-radius: 12px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1); padding: 1.5rem; }
+  </style>
+</head>
+<body class="antialiased leading-normal">
+
+<header class="sticky top-0 z-50 bg-[#FFF8F0] shadow">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-lg bg-green-600 flex items-center justify-center font-bold text-white">S</div>
+      <span class="font-semibold text-lg">SereneAyur</span>
+    </a>
+    <nav class="hidden md:flex gap-6 items-center text-sm">
+      <a href="#services" class="hover:underline">Services</a>
+      <a href="#products" class="hover:underline">Products</a>
+      <a href="#about" class="hover:underline">About</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+      <a href="#" class="btn">Book Appointment</a>
+    </nav>
+    <button id="mobileBtn" class="md:hidden p-2 rounded-md glass">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-6 py-12">
+
+<!-- Hero -->
+<section class="grid md:grid-cols-2 gap-8 items-center">
+  <div>
+    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">SereneAyur</h1>
+    <p class="text-green-700 mt-2 font-semibold">Healing through Nature and Wisdom — Specializing in Orthopedic & Holistic Ayurveda</p>
+    <p class="mt-4 max-w-xl">Experience authentic Ayurveda treatments in Sri Lanka. Rest, rejuvenate, and restore your body and mind naturally.</p>
+    <div class="mt-6 flex gap-3">
+      <a href="#contact" class="btn">Book Appointment</a>
+      <a href="#products" class="px-5 py-3 rounded-md border border-green-600 text-green-600 hover:bg-green-50">Shop Products</a>
+    </div>
+  </div>
+  <div class="glass p-6 rounded-xl">
+    <img src="hero.jpg" alt="Ayurveda treatment" class="w-full rounded-md shadow-lg">
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="mt-16">
+  <h2 class="section-title">Our Services</h2>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <article class="card">
+      <h3 class="font-semibold">Orthopedic Ayurveda Therapy</h3>
+      <p class="text-sm mt-2">Natural treatments for joint, bone, and muscle pain.</p>
+    </article>
+    <article class="card">
+      <h3 class="font-semibold">Panchakarma Therapy</h3>
+      <p class="text-sm mt-2">Detoxification and rejuvenation to support overall health.</p>
+    </article>
+    <article class="card">
+      <h3 class="font-semibold">Shirodhara</h3>
+      <p class="text-sm mt-2">Relaxing oil therapy to relieve stress and enhance healing.</p>
+    </article>
+    <article class="card">
+      <h3 class="font-semibold">Herbal Massages</h3>
+      <p class="text-sm mt-2">Customized massages with herbal oils for pain relief and circulation.</p>
+    </article>
+    <article class="card">
+      <h3 class="font-semibold">Abhyanga (Full Body Massage)</h3>
+      <p class="text-sm mt-2">Supports mobility, reduces stiffness, and promotes relaxation.</p>
+    </article>
+    <article class="card">
+      <h3 class="font-semibold">Diet & Lifestyle Guidance</h3>
+      <p class="text-sm mt-2">Ayurvedic guidance for orthopedic health and wellness.</p>
+    </article>
+  </div>
+</section>
+
+<!-- Products -->
+<section id="products" class="mt-16">
+  <h2 class="section-title">Our Products</h2>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <article class="card">
+      <img src="product1.jpg" class="w-full rounded-md mb-2" alt="Herbal Oil">
+      <h3 class="font-semibold">Herbal Massage Oil</h3>
+      <p class="text-sm mt-1">Promotes joint health and relaxation.</p>
+      <p class="font-semibold mt-1">$12</p>
+      <a href="https://wa.me/" target="_blank" class="btn mt-2 inline-block">Order via WhatsApp</a>
+    </article>
+    <article class="card">
+      <img src="product2.jpg" class="w-full rounded-md mb-2" alt="Herbal Powder">
+      <h3 class="font-semibold">Herbal Powder</h3>
+      <p class="text-sm mt-1">Supports bone and joint health naturally.</p>
+      <p class="font-semibold mt-1">$15</p>
+      <a href="https://wa.me/" target="_blank" class="btn mt-2 inline-block">Order via WhatsApp</a>
+    </article>
+    <article class="card">
+      <img src="product3.jpg" class="w-full rounded-md mb-2" alt="Herbal Balm">
+      <h3 class="font-semibold">Herbal Balm</h3>
+      <p class="text-sm mt-1">Relieves muscle and joint pain.</p>
+      <p class="font-semibold mt-1">$10</p>
+      <a href="https://wa.me/" target="_blank" class="btn mt-2 inline-block">Order via WhatsApp</a>
+    </article>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="mt-16 p-6 rounded-lg" style="background-color:#E9F4E9;">
+  <h2 class="section-title">About SereneAyur</h2>
+  <p class="max-w-3xl">SereneAyur combines ancient Ayurvedic wisdom with modern orthopedic care. We provide personalized treatments and high-quality herbal products to restore your health naturally.</p>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="mt-16">
+  <h2 class="section-title">Contact Us</h2>
+  <p class="mt-2">Reach us for appointments or product orders via WhatsApp, phone, or email.</p>
+  <form class="mt-6 grid md:grid-cols-2 gap-4" onsubmit="handleSubmit(event)">
+    <input name="name" placeholder="Your name" class="p-3 rounded-md border" required />
+    <input name="email" placeholder="Email" type="email" class="p-3 rounded-md border" required />
+    <input name="phone" placeholder="Phone / WhatsApp" class="p-3 rounded-md border" required />
+    <textarea name="message" placeholder="Your message or order" class="md:col-span-2 p-3 rounded-md border" rows="4"></textarea>
+    <button type="submit" class="btn md:col-span-2 mt-2">Send Message</button>
+  </form>
+  <script>
+    function handleSubmit(e){
+      e.preventDefault();
+      alert('Thank you! This is a demo form. For real orders, connect it to your email or WhatsApp.');
+    }
+  </script>
+</section>
+
+</main>
+
+<footer class="mt-20 py-6 border-t border-green-200" style="background-color:#E9F4E9;">
+  <div class="max-w-6xl mx-auto px-6 text-sm text-gray-700 flex flex-col md:flex-row justify-between items-center">
+    <div>© <span id="yr"></span> SereneAyur. All rights reserved.</div>
+    <div class="mt-3 md:mt-0">Healing through Nature and Wisdom</div>
+  </div>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</footer>
+
+<script>
+  const mobileBtn = document.getElementById('mobileBtn');
+  mobileBtn.addEventListener('click', ()=>{
+    const nav = document.querySelector('nav');
+    nav.classList.toggle('hidden');
+  });
+</script>
+
+</body>
+</html>
